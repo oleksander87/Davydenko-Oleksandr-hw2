@@ -1,3 +1,4 @@
+<script src="index.js">
 var letters = [];
 var stroka = "Backend As A Service";
 arr = stroka.split(' ');
@@ -11,3 +12,5 @@ console.log(letters_String);
 VM1481:9 
 (4) ["B", "A", "A", "S"]
 VM1481:10 BAAS
+
+</script>
