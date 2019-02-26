@@ -1,0 +1,13 @@
+var letters = [];
+var stroka = "Backend As A Service";
+arr = stroka.split(' ');
+for (var i=0; i<arr.length; i++) {
+    var leters = arr[i].charAt(0);
+    letters.push(leters[0]);
+    var letters_String = letters.join ( "" )
+}
+console.log(letters);
+console.log(letters_String);
+VM1481:9 
+(4) ["B", "A", "A", "S"]
+VM1481:10 BAAS
